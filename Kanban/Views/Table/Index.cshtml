@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Kanban.Models.Ticket>
+
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>Kanban</title>
+</head>
+<body>
+    <div id="content"></div>
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>*@
+    <script src="~/js/react.js"></script>
+    <script src="~/js/react-dom.js"></script>
+    <script src="~/js/remarkable.min.js"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css">
+    <script src="@Url.Content("~/js/tickets.jsx")"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+﻿body {
+    padding: 20px;    
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.kanban-card {
+    position: relative;
+    width: auto;
+    padding: 10px 25px 1px 25px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.card-contents {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-title {
+    margin: 0 auto 15px;
+    padding: 0;
+}
+
+.kanban-card.kanban-card-default {
+    color: #333;
+    background-color: #e8e8e8;
+    border-color: #ccc;
+}
+
+.kanban-card.kanban-card-primary {
+    color: #fff;
+    background-color: #749fc3;
+    border-color: #2e6da4;
+}
+
+.kanban-card.kanban-card-success {
+    color: black;
+    background-color: #d9efd0;
+    border-color: #4cae4c;
+}
+
+    .kanban-card.kanban-card-primary .card-button .btn,    
+    .kanban-card.kanban-card-success .card-button .btn {
+        border-color: #fff;
+    }
+
+.kanban-form {
+    border-radius: 5px;
+    border-color: black;
+    border: 1px solid black;    
+}
+
+.kanban-input {
+    color: black;
+    background-color: #d9edf8;
+    padding: 8px;
+    border: 1px solid black;
+    margin: 5px 25px;
+    border-radius: 5px;
+}
+
+.div-right {
+    text-align: right;
+    width:inherit;
+    margin-right: 10px;
+        
+}
+
+.div-top {
+    vertical-align: top
+}
+
+.div-none {
+    display: none
+}
+
